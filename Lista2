@@ -46,6 +46,9 @@ B = 4KHz; C = 100Kbps; SNR = 2^(c/b) - 1 = 33554431; SNRdb = 10log10(SNR) = 75,2
 Q6. Qual é o tempo de transmissão de um pacote enviado por uma estação se o comprimento
 do pacote for de 1 milhão de bytes e a largura de banda do canal for de 200 Kbps?
 
+Tamanho do Pacote = (8*1)Mbits = 8Mbits; Largura de Banda = 200Kbps; Tempo de Transmissão = Pacote/Taxa
+Tempo de Transmissão = 8000kbits/200kbps = 40s.
+
 Q7. Qual é a distância percorrida por um bit em um canal com uma velocidade de propa-
 gação de 2 ×108 m/s se a largura de banda do canal for:
 a) 1Mbps?
