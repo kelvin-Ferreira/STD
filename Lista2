@@ -82,8 +82,8 @@ está sendo enviado em um link com 10 roteadores, cada um com um tempo de fila d
 velocidade da luz dentro do link é 2 ×10^8 m/s. O link tem uma largura de banda de 5
 Mbps. Qual componente do atraso total é dominante? Qual deles é insignificante?
 
-Pacote = 5Mbits; Fila = 10*2*10^(-6)s; Processamento = 1*10^(-6); Distancia = 2000Km; Banda = 5Mbps;
+Pacote = 5Mbits; Fila = 10*2*10^(-6)s; Processamento = 10*10^(-6); Distancia = 2000Km; Banda = 5Mbps;
 Tempo de transmissão = Pacote/Banda; Tempo de Propagação = Distancia/Velocidade;
-Latência = 10^(-6) + 20*10^(-6) + (5*10^6)/(5*10^6) + (2000*10^3)/(2*10^8) = 1.010021s
+Latência = 10^(-5) + 20*10^(-6) + (5*10^6)/(5*10^6) + (2000*10^3)/(2*10^8) = 1.01003s
 Maior Relevancia = Tempo de Transmissão = 1s.
-Menor Relevancia = Tempo de Processamento = 10^(-6)s.
+Menor Relevancia = Tempo de Processamento e Tempo de fila = 10^(-5)s e 20*10^(-6)s.
