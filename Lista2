@@ -1,0 +1,50 @@
+Q1. Um canal tem uma relação sinal-ruído de 1000 e uma largura de banda de 4000 KHz.
+Qual é a taxa de dados máxima suportada por este canal?
+
+SNR = 1000; B = 4000KHz; Shannon -> C = B*log2(1 + SNR)
+C = 4000*log2(1001) = 4000*9,9672 = 39869KHz.
+
+Q2. Medimos o desempenho de uma linha telefônica (4 KHz de largura de banda). Quando
+o sinal é de 10 V, o ruído é de 5 mV. Qual é a taxa máxima de dados suportada por
+esta linha telefônica?
+
+SNR = sinal/ruido = 10V/0,005V = 2000; B = 4KHz; Shannon -> C = B*log2(1 + SNR)
+C = 4*log2(2001) = 4*10,9665 = 43,87KHz.
+
+Q3. Qual é a capacidade teórica de um canal em cada um dos seguintes casos:
+a) Largura de banda: 20 KHz SNRdB =40
+
+B = 20KHz; SNRdb = 10log10(SNR) -> SNR = 10^(SNRdb/10) = 10⁴ = 40000;
+C = B*log2(1 + SNR) = 20*log2(40001) = 20*15,2878 = 305.76KHz.
+
+b) Largura de banda: 200 KHz SNRdB =4
+c) Largura de banda: 1MHz SNRdB =20
+
+Q4. Precisamos atualizar um canal para uma largura de banda maior. Responda as seguin-
+tes questões:
+a) Como a taxa é melhorada se dobrarmos a largura de banda?
+b) Como a taxa é melhorada se dobrarmos a SNR?
+
+Q5. Temos um canal com largura de banda de 4 KHz. Se quisermos enviar dados a 100
+Kbps, qual é a SNR mínima? Qual é a SNRdB?
+
+Q6. Qual é o tempo de transmissão de um pacote enviado por uma estação se o comprimento
+do pacote for de 1 milhão de bytes e a largura de banda do canal for de 200 Kbps?
+
+Q7. Qual é a distância percorrida por um bit em um canal com uma velocidade de propa-
+gação de 2 ×108 m/s se a largura de banda do canal for:
+a) 1Mbps?
+b) 10Mbps?
+c) 100Mbps?
+
+Q8. Quantos bits podem caber em um link (enlace de comunicação) que tem atraso de 2
+ms se a largura de banda do link for:
+a) 1Mbps?
+b) 10Mbps?
+c) 100Mbps?
+
+Q9. Qual é o atraso total (latência) para um quadro com tamanho de 5 milhões de bits que
+está sendo enviado em um link com 10 roteadores, cada um com um tempo de fila de
+2 μs e um tempo de processamento de 1 μs. O comprimento do link é de 2000 Km. A
+velocidade da luz dentro do link é 2 ×108 m/s. O link tem uma largura de banda de 5
+Mbps. Qual componente do atraso total é dominante? Qual deles é insignificante?
