@@ -66,9 +66,15 @@ Distância = Tempo*velocidade = 10^(-8)*2*10^8 = 2m;
 
 Q8. Quantos bits podem caber em um link (enlace de comunicação) que tem atraso de 2
 ms se a largura de banda do link for:
+
 a) 1Mbps?
+Bits no link = Largura de Banda * Atraso = 1*10^6 * 2*10^(-3) = 2Kbits.
+
 b) 10Mbps?
+Bits no link = Largura de Banda * Atraso = 10*10^6 * 2*10^(-3) = 20Kbits.
+
 c) 100Mbps?
+Bits no link = Largura de Banda * Atraso = 100*10^6 * 2*10^(-3) = 200Kbits.
 
 Q9. Qual é o atraso total (latência) para um quadro com tamanho de 5 milhões de bits que
 está sendo enviado em um link com 10 roteadores, cada um com um tempo de fila de
