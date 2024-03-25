@@ -1,0 +1,92 @@
+Q1- Faça a distinção entre transmissão de banda base e transmissão de banda passante.
+
+Na banda base o sinal é transimitido em sua forma original, normalmente usada em transmissão via cabos. Na banda passante o sinal é modulado em uma portadora antes da 
+transmissão, é usada em transmissão sem fio. 
+
+Q2- Diferencie um canal passa-baixa de um canal passa-banda.
+
+Um canal passa-baixa é um canal que permite a passagem de baixas frequencias enquanto atenua frequencias mais altas. Um canal passa-banda opera permitindo a passagem de 
+frequencias dentro de um dado intervalo e atenuando as frequencias fora dele.
+
+Q3- O que o teorema de Nyquist tem a ver com comunicações?
+
+O teorema de Nyquist pode fornecer o limite superior para a taxa de bits de um sistema de transmição num canal sem ruido: (C = 2B*log2(2^n), onde B é a largura de 
+banda e C a taxa de bits em bps).
+
+Q4- Podemos dizer se um sinal é periódico ou não periódico apenas observando seu espectro
+de frequências? Como?
+
+Sim, ao observar os picos de onda do componente predominante num espectro, quando um sinal é periódico temos intervalos regulares entre picos oque não acontece 
+num sinal não periódico.
+
+Q5- Enviamos um sinal de voz de um microfone para um gravador. Isso é banda base ou
+banda passante?
+
+Banda base, pois o microfone capta o sinal analogico (ondas sonoras) que é um sinal não modulado, e o transmite diretamente ao gravador.
+
+Q6- Enviamos um sinal digital de um coputador em uma LAN para outro computador. Isto
+é uma transmissão banda base ou transmissão em banda passante?
+
+Banda base, pois a transmissão em uma rede local (LAN) não passa por modulação numa portadora, sendo enviados diretamente.
+
+Q7- Modulamos vários sinais de voz e os enviamos pelo ar. Esta transmissão é banda base
+ou banda passante?
+
+Banda passante, pois os sinais originais foram modulados para serem então combinados a uma onda portadora a ser transmitida.
+
+Q8- Qual é a largura de banda de um sinal que pode ser decomposto em cinco ondas
+senoidais com frequências de 0, 20, 50, 100 e 200 Hz? Todas as amplitudes de pico são
+as mesmas. Desenhe a largura de banda.
+
+Q9- Um sinal composto periódico com largura de banda de 2.000 Hz é formado por duas
+ondas senoidais. A primeira tem frequência de 100 Hz com amplitude máxima de 20
+V; a segunda tem uma amplitude máxima de 5 V. Desenhe o espectro e identifique a
+largura de banda.
+
+Q10- Qual é a taxa de bits para cada um dos seguintes sinais?
+
+• Um sinal no qual 1 bit dura 0,001 s
+Xbits = 1s; 1bit = 0.001s; Xbits = 1*1/0.001; X = 1000bits
+Taxa de bits = 1000bps.
+
+• Um sinal em que 1 bit dura 2 ms
+Xbits = 1s; 1bit = 0.002s; Xbits = 1*1/0.002; X = 500bits
+Taxa de bits = 500bps.
+
+• Um sinal no qual 10 bits duram 20 μs
+Xbits = 1s; 10bit = 0.00002s; Xbits = 10*1/0.00002; X = 500000bits
+Taxa de bits = 500kbps.
+
+Q11- Um dispositivo está enviando dados a uma taxa de 1000 bps.
+
+• Quanto tempo leva para enviar 10 bits?
+1s = 1000bits; Xs = 10bits; Xs = 1*10/1000; X = 0.01
+Tempo de transmissão = 0.01s.
+
+• Quanto tempo leva para enviar um único caractere (8 bits)?
+1s = 1000bits; Xs = 8bits; Xs = 1*8/1000; X = 0.008
+Tempo de transmissão = 0.008s.
+
+• Quanto tempo leva para enviar um arquivo de 100.000 caracteres?
+1s = 1000bits; Xs = 8*100000bits; Xs = 1*8*100000/1000; X = 800s
+Tempo de transmissão = 800s.
+
+Q12- Um canal de TV tem uma largura de banda de 6 MHz. Se enviarmos um sinal digital usando um canal, quais serão as taxas de dados se 
+usarmos um harmônico, três harmônicos e cinco harmônicos?
+
+1H => B = Tx/2; Tx = 2B; Tx = 12MHz.
+3H => B = 3Tx/2; Tx = 2B/3; Tx = 4MHz.
+5H => B = 5Tx/2; Tx = 2B/5; Tx = 2.4MHz.
+
+Q13- Se a largura de banda do canal for de 5 Kbps, quanto tempo levará para enviar um
+quadro de 100.000 bits desse dispositivo?
+
+Tempo de transmissão = tamanho do dado/Largura de banda
+Tempo de Transmissão = 100Kbits/5Kbps = 20s.
+
+Q14- Um monitor de computador tem uma resolução de 1200 por 1000 pixels. Se cada pixel
+usa 1024 cores, quantos bits são necessários para enviar o conteúdo completo de uma
+tela?
+
+1024 cores demandão 10bits para serem representadas, então.
+Bits por tela = 10*1200*1000 = 12000000 = 12Mbits. 
