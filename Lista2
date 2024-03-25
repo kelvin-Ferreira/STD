@@ -41,7 +41,7 @@ o aumento obtido ao dobrarmos a largura de banda. (Cnova = Corign + B*(log(1 + 2
 Q5. Temos um canal com largura de banda de 4 KHz. Se quisermos enviar dados a 100
 Kbps, qual é a SNR mínima? Qual é a SNRdB?
 
-B = 4KHz; C = 100Kbps; SNR = 2^(c/b) - 1 
+B = 4KHz; C = 100Kbps; SNR = 2^(c/b) - 1 = 33554431; SNRdb = 10log10(SNR) = 75,2575.
 
 Q6. Qual é o tempo de transmissão de um pacote enviado por uma estação se o comprimento
 do pacote for de 1 milhão de bytes e a largura de banda do canal for de 200 Kbps?
