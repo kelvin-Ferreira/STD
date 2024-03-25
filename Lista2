@@ -51,6 +51,7 @@ Tempo de Transmissão = 8000kbits/200kbps = 40s.
 
 Q7. Qual é a distância percorrida por um bit em um canal com uma velocidade de propa-
 gação de 2 ×10^8 m/s se a largura de banda do canal for:
+
 a) 1Mbps?
 Tempo de transmissão = 1bit/1Mbps = 10^(-6)s; Velocidade = 2*10^8; 
 Distância = Tempo*velocidade = 10^(-6)*2*10^8 = 200m;
