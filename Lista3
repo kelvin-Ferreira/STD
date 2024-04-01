@@ -3,8 +3,27 @@ pelas características físicas do canal. Dentre os principais efeitos que um ca
 provocar sobre um dado sinal podem-se citar: a atenuação, a distorção e a contaminação
 por ruído. Explique cada um desses efeitos provocados pelo canal.
 
+Atenuação: A atenuação é a perda de energia de um sinal ao viajar pelo meio,
+é causada pela resistencia do meio a passagem do sinal, pode ser atenua fazendo uso
+de amplificadores de sinal. 
+Expressão que denota perda/ganho de energia do sinal: 10log10(P2/P1)dB. P1 = entrada, P2 = saída.
+
+Distorção: Distorção é a mudança na forma do sinal, acontece pois, as diferentes componentes
+de frequência de um sinal tem velocidades de propagação distintas ao percorrer o meio, fazendo com 
+que elas chegem com atrasos dinstintos ao receptor, resultando em um sinal com fases diferentes na 
+fonte e no receptor.
+
+Contaminção por ruido: Ruido adtivo, existem diversos tipos (Térmico, Induzido, Crosstalk, Impulsivo) 
+são causado pelo ambiente externo ao sinal, causam a degradação da informação levada pelo sinal transmitido, 
+o quão menor a relação sinal ruido (SNR = Ps/Pr), menos do sinal original chegara ao receptor.
+
 2. Uma das principais vantagens do sinal digital diante do sinal analógico é a sua maior
 imunidade ao ruído. Explique porque os sinais digitais são mais imunes ao ruído.
+
+Sinais digitais são sinais discretos (binarios) enquanto o ruido é orginado de fontes externas,
+essa natureza distinta dos sinais torna a identificação e recuperação do sinal digital possivel, 
+oque não acontece com um sinal analógico pois devido a natureza semelhante dele e do ruido 
+após sofrer a adição de ruido não é mais possivel distinguir um do outro.
 
 3. Explique o princípio de funcionamento dos repetidores regenerativos nos sistemas de
 comunicação digital. Por que eles não são utilizados nas comunicações analógicas?
