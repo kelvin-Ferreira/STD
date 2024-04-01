@@ -1,0 +1,45 @@
+1. Quando um sinal de informação atravessa um canal de comunicação ele é modificado
+pelas características físicas do canal. Dentre os principais efeitos que um canal pode
+provocar sobre um dado sinal podem-se citar: a atenuação, a distorção e a contaminação
+por ruído. Explique cada um desses efeitos provocados pelo canal.
+
+2. Uma das principais vantagens do sinal digital diante do sinal analógico é a sua maior
+imunidade ao ruído. Explique porque os sinais digitais são mais imunes ao ruído.
+
+3. Explique o princípio de funcionamento dos repetidores regenerativos nos sistemas de
+comunicação digital. Por que eles não são utilizados nas comunicações analógicas?
+
+4. Explique, em termos da análise de Fourier, o que ocasiona a distorção de um trem de
+pulsos transmitidos sobre um canal de fio.
+
+5. Explique o processo de formação do desvanecimento variante no tempo nos canais sem
+fio, e como a recepção em diversidade pode minimizar os problemas causados.
+
+6. Calcule o ganho, em dB, de um amplificador, que excitado com 1 W de sinal na entrada
+fornece 10 W na saída.
+
+7. Um sinal viaja do ponto A ao ponto B. No ponto A, a potência do sinal é de 100 W.
+No ponto B, a potência é de 90 W. Qual é a atenuação em decibéis?
+
+8. A atenuação de um sinal é -10 dB. Qual é a potência final do sinal se originalmente
+fosse 5 W?
+
+9. Um sinal passou por três amplificadores em cascata, cada um com um ganho de 4 dB.
+Qual é o ganho total? Qual é o valor da amplificação do sinal (em escala linear)?
+
+10. Calcule a diferença em dB entre os níveis de potência: - 110 dBm e -70 dBm.
+
+11. Um sinal com potência de 200 miliwatts passa por 10 dispositivos, cada um com um
+ruído médio de 2 microwatts. Qual é a SNR e a SNRdB?
+
+12. Se o valor da tensão de pico de um sinal for 20 vezes o valor da tensão de pico do ruído,
+qual é a SNR e a SNRdB?
+
+13. O nível de sinal na antena receptora é – 53 dBm e o nível de ruído – 73 dBm. Determine
+a SNR.
+
+14. Quais estratégias podem ser utilizadas em um sistema digital para melhorar a relação
+sinal-ruído na entrada do demodulador do sistema? (b) E em um sistema analógico?
+
+15. A figura abaixo relaciona o gráfico do ruído térmico aditivo (no domínio do tempo)
+com a distribuição de probabilidades Gaussiana. Interprete essa figura.
