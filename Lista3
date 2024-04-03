@@ -46,13 +46,24 @@ fosse 5 W?
 9. Um sinal passou por três amplificadores em cascata, cada um com um ganho de 4 dB.
 Qual é o ganho total? Qual é o valor da amplificação do sinal (em escala linear)?
 
+G1 = G2 = G3 = 4dB; GdB = 10log10(Glin); Gt = 3*4dB = 12dB; 10log10(Gtlin) = 12dB;
+Gtlin = 10^(12/10) = 15,849.
+
 10. Calcule a diferença em dB entre os níveis de potência: - 110 dBm e -70 dBm.
+
+dBm = 10log10(Pm); Np1 = -110dBm; Np2 = -70dBm; 10log10(Pm1) = -110dBm; Pm1 = 10^(-11)mW;
+10log10(Pm2) = -70dBm; Pm2 = 10^(-7)mW; dP = 10log10(Pm2/Pm1) = 10log10(10^4) = 40dB.
 
 11. Um sinal com potência de 200 miliwatts passa por 10 dispositivos, cada um com um
 ruído médio de 2 microwatts. Qual é a SNR e a SNRdB?
 
+Ps = 200mW; Prn = 0,002mW; Prt = 10*0,002 = 0,02mW; SNR = Ps/Pr = 200/0,02 =10000;
+SNRdB = 10log10(SNR) = 10log10(10^4) = 40;
+
 12. Se o valor da tensão de pico de um sinal for 20 vezes o valor da tensão de pico do ruído,
 qual é a SNR e a SNRdB?
+Potencia é proporcinal ao quadrado da tenção, por tanto:
+Tr = x; Ts = 20x; SNR = (20x/x)^2 = 400; SNRdB = 10log10(400) = 26,02.
 
 13. O nível de sinal na antena receptora é – 53 dBm e o nível de ruído – 73 dBm. Determine
 a SNR.
