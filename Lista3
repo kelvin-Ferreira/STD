@@ -80,5 +80,6 @@ SNR = 10^(-5,3)/10^(-7,3) = 10^2 = 100.
 14. Quais estratégias podem ser utilizadas em um sistema digital para melhorar a relação
 sinal-ruído na entrada do demodulador do sistema? (b) E em um sistema analógico?
 
+
 15. A figura abaixo relaciona o gráfico do ruído térmico aditivo (no domínio do tempo)
 com a distribuição de probabilidades Gaussiana. Interprete essa figura.
