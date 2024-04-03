@@ -37,11 +37,17 @@ fio, e como a recepção em diversidade pode minimizar os problemas causados.
 6. Calcule o ganho, em dB, de um amplificador, que excitado com 1 W de sinal na entrada
 fornece 10 W na saída.
 
+P1 = 1W; P2 = 10W; G = 10log10(P2/P1) = 10log10(10/1) = 10dB.
+
 7. Um sinal viaja do ponto A ao ponto B. No ponto A, a potência do sinal é de 100 W.
 No ponto B, a potência é de 90 W. Qual é a atenuação em decibéis?
 
+Pa = 100W; Pb = 90W; Atn = 10log10(90/100) = -0,458dB.
+
 8. A atenuação de um sinal é -10 dB. Qual é a potência final do sinal se originalmente
 fosse 5 W?
+
+Atn = -10dB; P1 = 5W; 10log10(Px/5) = -10; log10(Px/5) = -1; Px = 1/2.
 
 9. Um sinal passou por três amplificadores em cascata, cada um com um ganho de 4 dB.
 Qual é o ganho total? Qual é o valor da amplificação do sinal (em escala linear)?
