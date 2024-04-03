@@ -74,6 +74,9 @@ Tr = x; Ts = 20x; SNR = (20x/x)^2 = 400; SNRdB = 10log10(400) = 26,02.
 13. O nível de sinal na antena receptora é – 53 dBm e o nível de ruído – 73 dBm. Determine
 a SNR.
 
+10log10(Pms) = -53 dBm -> Pms = 10^(-5,3); 10log10(Pmr) = -73 dBm -> Pmr = 10^(-7,3); 
+SNR = 10^(-5,3)/10^(-7,3) = 10^2 = 100.
+
 14. Quais estratégias podem ser utilizadas em um sistema digital para melhorar a relação
 sinal-ruído na entrada do demodulador do sistema? (b) E em um sistema analógico?
 
