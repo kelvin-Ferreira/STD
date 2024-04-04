@@ -34,13 +34,21 @@ Repetidores regenerativos não são utilizados em comunicação analógica pois 
 são suscetíveis a ruído, e ao amplificar um sinal contaminado de ruído acabamos amplificando 
 o próprio ruído, comprometendo ainda mais o sinal original.
 
-4. Explique, em termos da análise de fourier, o que ocasiona a distorção de um trem de
+4. Explique, em termos da análise de Fourier, o que ocasiona a distorção de um trem de
 pulsos transmitidos sobre um canal de fio.
 
-
+Segundo a análise de Fourier qualquer sinal pode ser decomposto em função da soma de suas componentes
+em frequência, em um canal de fio a resposta em frequência é limitada devido as suas caracteristicas 
+fisicas, fazendo necessário uma atenuação nas componentes de alta frequência, oque gera distorções ao 
+recuperarmos o sinal original.
 
 5. Explique o processo de formação do desvanecimento variante no tempo nos canais sem
 fio, e como a recepção em diversidade pode minimizar os problemas causados.
+
+Um sinal que sofre desvanicimento varia sua resposta ao impulso do canal ao longo do tempo devido a variações
+físicas no ambiente de comunicação. A recepção em diversidade atua minimizando estes problemas fazendo uso de 
+duas ou mais antenas em diferentes pontos estratégicos para captar o sinal, podendo então fazer uma seleção da 
+melhor versão do sinal para saída. 
 
 6. Calcule o ganho, em dB, de um amplificador, que excitado com 1 W de sinal na entrada
 fornece 10 W na saída.
