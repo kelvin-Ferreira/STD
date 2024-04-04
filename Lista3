@@ -96,7 +96,7 @@ SNR = 10^(-5,3)/10^(-7,3) = 10^2 = 100.
 14. Quais estratégias podem ser utilizadas em um sistema digital para melhorar a relação
 sinal-ruído na entrada do demodulador do sistema? (b) E em um sistema analógico?
 
-(a) Num sistema digital podemos fazer uso de filtros na  recepção do sistema para atenuar o ruido.
+(a) Num sistema digital podemos fazer uso de filtros na recepção do sistema para atenuar o ruido.
 Considerando a relação (SNRinput = PwrS/PwrR).
 
 
