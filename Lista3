@@ -104,4 +104,4 @@ Considerando a relação (SNRinput = PwrS/PwrR).
 com a distribuição de probabilidades Gaussiana. Interprete essa figura.
 
 O ruído branco apresentação uma distribuição normal, oque significa que haverá maior concentração dos 
-picos dos componente de frequência ao longo do tempo deste ruído numa faixa entre Sigma e -Sigma.
+niveis de intensidade do ruído ao longo do tempo numa faixa entre Sigma e -Sigma.
