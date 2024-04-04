@@ -28,7 +28,13 @@ após sofrer a adição de ruido não é mais possivel distinguir um do outro.
 3. Explique o princípio de funcionamento dos repetidores regenerativos nos sistemas de
 comunicação digital. Por que eles não são utilizados nas comunicações analógicas?
 
-4. Explique, em termos da análise de Fourier, o que ocasiona a distorção de um trem de
+Um repetidor regenerativo opera recebendo, amplificando e regenerando a integridade de um 
+sinal atenuando possíveis perdas de informação e restaurando a potência do sinal.
+Repetidores regenerativos não são utilizados em comunicação analógica pois sinais analógicos
+são suscetíveis a ruído, e ao amplificar um sinal contaminado de ruído acabamos amplificando 
+o próprio ruído, comprometendo ainda mais o sinal original.
+
+4. Explique, em termos da análise de fourier, o que ocasiona a distorção de um trem de
 pulsos transmitidos sobre um canal de fio.
 
 5. Explique o processo de formação do desvanecimento variante no tempo nos canais sem
