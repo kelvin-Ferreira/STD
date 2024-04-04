@@ -103,5 +103,5 @@ Considerando a relação (SNRinput = PwrS/PwrR).
 15. A figura abaixo relaciona o gráfico do ruído térmico aditivo (no domínio do tempo)
 com a distribuição de probabilidades Gaussiana. Interprete essa figura.
 
-O ruído branco apresentação uma distribuição normal, oque significa que haverá maior concentração dos 
+O ruído térmico aditivo apresentação uma distribuição normal, oque significa que haverá maior concentração dos 
 niveis de intensidade do ruído ao longo do tempo numa faixa entre Sigma e -Sigma.
