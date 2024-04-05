@@ -99,6 +99,9 @@ sinal-ruído na entrada do demodulador do sistema? (b) E em um sistema analógic
 (a) Num sistema digital podemos fazer uso de filtros na recepção do sistema para atenuar o ruido.
 Considerando a relação (SNRinput = PwrS/PwrR).
 
+(b) Para sistemas analógico podemos utilizar circuitos de ganho variável para ajustar automaticamente o ganho 
+do sinal de entrada com base na intensidade do sinal e no nível de ruído.
+
 
 15. A figura abaixo relaciona o gráfico do ruído térmico aditivo (no domínio do tempo)
 com a distribuição de probabilidades Gaussiana. Interprete essa figura.
