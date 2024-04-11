@@ -1,0 +1,30 @@
+1. Em um esquema 16-ário (M = 16 níveis de pulsos de sinalização),
+a) Determine a largura mínima da banda de transmissão necessária para transmitir dado a
+uma taxa de 12 kbps com ISI zero.
+
+b) Determine a largura mínima da banda de transmissão se pulsos de Nyquist com fator de
+roll-off r = 0.2 são usados para transmitir dados.
+
+2. Um sinal de áudio senoidal com largura de banda de 4 kHz é amostrado a uma taxa 25%
+maior que a taxa de Nyquist e quantizado. O erro de quantização não deve exceder 0,1% da
+amplitude de pico do sinal. As amostras quantizadas são codificadas e transmitidas por pulsos
+4-ário.
+a) Determine o número mínimo de pulsos 4-ário necessários para codificar cada amostra.
+
+b) Determine a largura mínima da banda de transmissão necessária para transmitir dados
+com ISI nula.
+
+c) Se pulsos de Nyquist 4-ário com roll-off r = 0.25 são usados para transmitir este sinal,
+determine a largura de banda de transmissão.
+
+3. Um sinal analógico com largura de banda de 10 kHz é amostrado a uma taxa de 24 kHz,
+quantizada em L = 256 níveis de quantização e codificada usando pulsos de Nyquist M -ários
+com fator roll-off r = 0, 2. Uma largura de banda B = 30 kHz é disponível para a transmissão
+dos dados. Determine o menor valor de M aceitável.
+
+4. A Figura 1 ilustra um pulso que chegou a um repetidor regenerativo. Este pulso satisfaz o
+critério de Nyquist para ISI nula? Justifique. Explique a função do equalizador no repetidor
+regenerativo, e como ele agiria sobre esse pulso recebido.
+
+5. Calcule o tempo necessário para se transmitir 700 MB sobre um canal com largura de banda
+32 kHz utilizando-se pulsos quaternários (M = 4) com fator roll-off r = 0.2.
