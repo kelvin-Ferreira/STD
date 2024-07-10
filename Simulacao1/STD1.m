@@ -4,7 +4,7 @@ pkg load signal
 % n(t) = cos(2pi*2k*t) + cos(2pi*2.3k*t)
 
 [x, taxa] = audioread('C:\Users\kelvi\Downloads\exemplo.wav');
-%sound(x, taxa);
+sound(x, taxa);
 tempo = length(x)/taxa;
 f1 = 2000;
 f2 = 2300;
@@ -21,8 +21,8 @@ for i = 1:length(x)
     z(i) = x(i) + n(i);
 end
 
-%sound(n, taxa);
-%sound(z, taxa);
+sound(n, taxa);
+sound(z, taxa);
 
 ny = taxa/2;
 fn0 = 1900/ny;
