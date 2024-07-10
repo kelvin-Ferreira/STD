@@ -3,7 +3,7 @@ pkg load signal
 % Parametro: f1 = 2kHz e f2 = 2.3kHz.
 % n(t) = cos(2pi*2k*t) + cos(2pi*2.3k*t)
 
-[x, taxa] = audioread('C:\Users\kelvi\Downloads\exemplo.wav');
+[x, taxa] = audioread('exemplo.wav');
 sound(x, taxa);
 tempo = length(x)/taxa;
 f1 = 2000;
@@ -36,6 +36,7 @@ b = remez(980, F, a);
 y = filter(b, 1, z);
 
 sound(y, taxa);
+audiowrite('sinal_filtrado.wav', y, taxa);
 
 %Frequencia
 
